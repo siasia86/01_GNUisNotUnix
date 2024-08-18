@@ -1,0 +1,6 @@
+#!/bin/bas
+
+
+bash script
+
+
