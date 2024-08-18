@@ -22,6 +22,6 @@ cd test01
 
 git init
 
-git clone git@github.com:siasia86/01_GNUisNotUnix.git
+git clone git@github.com:siasia86/01_GNUisNotUnix.git /root/01_GNUisNotUnix
 
 ---
