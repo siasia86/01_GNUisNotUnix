@@ -16,11 +16,11 @@ git push -u origin main
 
 ---
 
-mkdir test01
+<!-- mkdir test01
 
 cd test01
 
-git init
+git init --!>
 
 git clone git@github.com:siasia86/01_GNUisNotUnix.git /root/01_GNUisNotUnix
 
