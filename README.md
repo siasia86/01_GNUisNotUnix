@@ -1,6 +1,3 @@
-#!/bin/bas
-
-
 bash script
 ---
 echo "# gnuisnotunix" >> README.md
