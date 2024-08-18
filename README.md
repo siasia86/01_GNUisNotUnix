@@ -2,7 +2,7 @@
 
 
 bash script
----------------------------
+--------------------
 echo "# gnuisnotunix" >> README.md
 
 git init
@@ -17,7 +17,7 @@ git remote add origin git@github.com:siasia86/01_GNUisNotUnix.git
 
 git push -u origin main
 
----------------------------
+----
 
 
 ---------------------------
