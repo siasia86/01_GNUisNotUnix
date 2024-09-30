@@ -3,17 +3,17 @@
 #### 30 00 * * 6  /usr/bin/bash /root/01_Sync_backup.sh
 
 ## sj_del added
-  export LANG=en
-  dayno="`date '+%j'`"
-  daybak="`expr $dayno % 4`"
-  backup_dir="/backup/sync/sync_$daybak"
+export LANG=en
+dayno="`date '+%j'`"
+daybak="`expr $dayno % 4`"
+backup_dir="/backup/sync/sync_$daybak"
 
 
 function sync_bak {
   from=$1
   to=$2
   if [ ! -d "$to" ] ; then mkdir -p $to ; fi
-        rsync -av --delete --exclude=log --exclude=lib/mysql $from $to
+	rsync -av --delete --exclude=log --exclude=lib/mysql $from $to
 
 }
 
